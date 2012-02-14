@@ -1,0 +1,6 @@
+nbproject/
+application/
+public/
+library/Zend
+library/Doctrine
+library/Doctrine.php
