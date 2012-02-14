@@ -15,10 +15,11 @@ implements Zend_Tool_Framework_Provider_Pretendable
 {
     /**
      * Executes Doctrine cli commands
-     *
-     * @param string|null $doctrineCommand doctrine command name 
-     * @param string $environment environment name
-     * @return null 
+     * 
+     * @param string $command doctrine command name
+     * @param string $environment zend application environment
+     * @param string|null $options doctrine command options
+     * @return null
      */
     public function generate($command, $environment = 'development', $options = null)
     {
