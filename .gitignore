@@ -4,3 +4,4 @@ public/
 library/Zend
 library/Doctrine
 library/Doctrine.php
+.zfproject.xml
