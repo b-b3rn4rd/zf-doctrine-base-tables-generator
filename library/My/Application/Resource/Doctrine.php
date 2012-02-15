@@ -11,6 +11,11 @@
  */
 class My_Application_Resource_Doctrine extends Zend_Application_Resource_ResourceAbstract
 {
+    /**
+     * Initialize doctrine resource
+     * 
+     * @return Doctrine_Manager 
+     */
     public function init()
     {
         /* @var $manager Doctrine_Manager */
