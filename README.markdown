@@ -4,6 +4,8 @@ This is adaptation of <a href="https://github.com/fruit/sfDoctrineTablePlugin">s
 <a href="http://farm8.staticflickr.com/7039/6880080651_90f0f41408_z.jpg"><img src="http://farm8.staticflickr.com/7039/6880080651_90f0f41408_m.jpg" title="Available 'WHERE' conditions" /></a>
 <a href="http://farm8.staticflickr.com/7181/6880069229_5f6ba4e72a_b.jpg"><img title="Available 'JOIN' conditions" src="http://farm8.staticflickr.com/7181/6880069229_5f6ba4e72a_m.jpg"/></a>
 <a href="http://farm8.staticflickr.com/7207/6880136851_1d6238cb8f.jpg"><img src="http://farm8.staticflickr.com/7207/6880136851_1d6238cb8f_m.jpg" title="Doctrine cli tasks" /></a>
+<br/>
+<a href="http://pastie.org/3386479">Example of generated base table</a>
 <h3>Architecture</h3>
 After base tables generation each Doctrine model will have tables will following hierarchy:
 <pre><code>class Model_Table_City extends <b>Model_Table_Base_City</b>
